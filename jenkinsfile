@@ -1,6 +1,6 @@
 pipeline {
     environment { 
-        registry = "naveen2naveen/devops-project" 
+        registry = "naveen/devops-project" 
         registryCredential = 'docker-hub' 
         dockerImage = '' 
     }
